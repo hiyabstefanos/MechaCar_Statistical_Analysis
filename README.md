@@ -2,9 +2,9 @@
 
 ## Linear Regression to Predict MPG
 
-<img width="499" alt="Screen Shot 2021-11-27 at 2 33 46 PM" src="https://user-images.githubusercontent.com/89358080/143719907-333d6cf0-c396-45d5-86db-9ceee27b9e2e.png">
+Based on the statistics shown below we can determine how effective the linear regression model is at predicting the MPG of the MechaCar prototypes:
 
-From the statistics shown above, we are able to answer the questions below:
+<img width="508" alt="Screen Shot 2021-11-27 at 3 23 08 PM" src="https://user-images.githubusercontent.com/89358080/143721232-884ec94d-bc25-4c8f-a540-6a0266bee1eb.png"> <img width="460" alt="Screen Shot 2021-11-27 at 3 23 25 PM" src="https://user-images.githubusercontent.com/89358080/143721237-fcf64c6c-c21d-4dc4-b122-bf35b856beff.png">
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
@@ -17,3 +17,17 @@ From the statistics shown above, we are able to answer the questions below:
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
     - The multiple R-squared value of 0.7149 shows approximately 71% of the predictions are resolved by this model is able to effectively predict the mpg of MechaCar prototypes. 
+
+## Summary Statistics on Suspension Coils
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+The current manufacturing data shows that the variance is well below the 100 pounds per square inch requirement as seen in the total summary
+
+<img width="492" alt="Screen Shot 2021-11-27 at 3 06 46 PM" src="https://user-images.githubusercontent.com/89358080/143720788-63e1dc52-33a0-4e6c-b6e9-e501e2d66aa5.png">
+
+Digging a little deeper, we can see the differences based on the lots:
+
+<img width="645" alt="Screen Shot 2021-11-27 at 3 07 34 PM" src="https://user-images.githubusercontent.com/89358080/143720813-4297bc7e-fdd2-4ea1-a73c-0742dac56766.png">
+
+While the variance for Lot 1 and Lot 2 are significantly below 100 PSI, Lot 3 exceeds the limit by nearly double at 170 PSI.
