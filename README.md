@@ -30,4 +30,6 @@ Digging a little deeper, we can see the differences based on the lots:
 
 <img width="645" alt="Screen Shot 2021-11-27 at 3 07 34 PM" src="https://user-images.githubusercontent.com/89358080/143720813-4297bc7e-fdd2-4ea1-a73c-0742dac56766.png">
 
-While the variance for Lot 1 and Lot 2 are significantly below 100 PSI, Lot 3 exceeds the limit by nearly double at 170 PSI.
+While the variance for Lot 1 and Lot 2 are significantly below 100 PSI at 0.98 and 7.47, respectively. On the other hand, Lot 3 exceeds the limit by nearly double at 170.29 PSI.
+
+## T-Tests on Suspension Coils
