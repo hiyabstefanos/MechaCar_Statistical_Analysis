@@ -48,5 +48,3 @@ lot3 <- subset(suspension, Manufacturing_Lot=="Lot3")
 t.test(lot1$PSI,mu=1500)
 t.test(lot2$PSI,mu=1500)
 t.test(lot3$PSI,mu=1500)
-
-# log10 was not used as the data was not skewed and did not need any smoothing
