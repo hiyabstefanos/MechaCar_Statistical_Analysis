@@ -8,7 +8,7 @@ Based on the statistics shown below we can determine how effective the linear re
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
-    - Vehicle length and ground clearance  The vehicle length, and vehicle ground clearance are statistically likely to provide non-random amounts of variance to the model. That is to say, the vehicle length and vehicle ground clearance have a significant impact on miles per gallon on the MechaCar prototype. Conversely, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) have p-Values that indicate a random amount of variance with the dataset.
+    - Vehicle length and ground clearance
 
 - Is the slope of the linear model considered to be zero? Why or why not?
 
