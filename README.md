@@ -8,7 +8,7 @@ Based on the statistics shown below we can determine how effective the linear re
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
-    - Vehicle weight, spoiler_angle & AWD provided a non-random amount of variance. The two variables that had the most amount of random variance are ground_clearance and vehicle_length. The vehicle length, and vehicle ground clearance are statistically likely to provide non-random amounts of variance to the model. That is to say, the vehicle length and vehicle ground clearance have a significant impact on miles per gallon on the MechaCar prototype. Conversely, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) have p-Values that indicate a random amount of variance with the dataset.
+    - Vehicle length and ground clearance  The vehicle length, and vehicle ground clearance are statistically likely to provide non-random amounts of variance to the model. That is to say, the vehicle length and vehicle ground clearance have a significant impact on miles per gallon on the MechaCar prototype. Conversely, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) have p-Values that indicate a random amount of variance with the dataset.
 
 - Is the slope of the linear model considered to be zero? Why or why not?
 
@@ -42,3 +42,15 @@ We see a different story when looking at each lot individually.
 <img width="402" alt="Screen Shot 2021-11-27 at 5 48 52 PM" src="https://user-images.githubusercontent.com/89358080/143722516-7522d5cf-a2ff-4750-86de-31c896a29719.png">
 
 Based off the statistics shown above, Lot 1 has a sample mean of 1500 with a p-value of 1 and Lot 2 has a smaple mean of 1500.2 and a p-value of 0.6072. Both of these lots a therefore statistically similar from the population mean. On the other hand, Lot 3 has a mean of 1496.14 and a p-value of 0.04168 which is less than the significance level of 0.05. Therefore the null hyposthesis is rejected and the results are statistically significant and we can conclude there are problems with the production of Lot 3 which will need to be resolved.
+
+## Study Design: MechaCar vs Competition
+When considering a big purchase, such as buying a car, consumers have a lot of factors to take into account. To determine how MechaCar compares to competitors, statistical analysis will be performed to evaluate different metrics such as:
+    - Resale Value: Independent Variable
+    - Vehicle weight: independent variable
+    - Fuel Efficiency: Dependent Variable
+
+In our analysis we define the hypothesis as:
+    - H0: There is NO statistical significant difference on defined metrics between MechaCar and competition.
+    - Ha: The is statistical significant difference on defined metrics between MecharCar and competition.
+
+A t-test will be performed with a significance value 0.05.
