@@ -24,16 +24,6 @@ total_summary <- suspension %>% summarize(Mean_PSI=mean(PSI),Median_PSI=median(P
 #Create a lot summary
 lot_summary <- suspension  %>% group_by(Manufacturing_Lot) %>% summarize(Mean_PSI=mean(PSI), Median_PSI=median(PSI), Var_PSI=var(PSI), Std_Dev_PSI=sd(PSI), Num_Coil=n(), .groups = 'keep')
 
-### BOX PLOT FOR ANALYSIS
-##box plot: PSI Whole lot
-#plt1 <- ggplot(mecha_coil,aes(y=PSI)) #import dataset into ggplot2
-#plt1 + geom_boxplot() #add boxplot
-
-##box plot: PSI each indicdiual Lot
-#plt2 <- ggplot(mecha_coil,aes(x=Manufacturing_Lot,y=PSI)) 
-##import dataset into ggplot2
-#plt2 + geom_boxplot()
-
 # Deliverable 3
 
 #Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch using t-test
